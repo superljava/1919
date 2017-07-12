@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<p>Type: <input id="type" type="text"></p>
+	<p>Title: <input id="title" type="text"></p>
+	<p>店铺: <input id="dianpu" type="text"></p>
+	<p>官方售价：<input id="oriPrice" type="text"></p>
+	<p>1919售价：<input id="nowPrice" type="text"></p>
+	<p>库存：<input id="store" type="text"></p>
+	<p>图片01：<input id="images01" type="text"></p>
+	<p>图片02：<input id="images02" type="text"></p>
+	<p>图片03：<input id="images03" type="text"></p>
+	<p>图片04：<input id="images04" type="text"></p>
+	<p>图片05：<input id="images05" type="text"></p>
+	<button id="btn">提交</button>
+</body>
+<script>
+
+	$("#btn").click(function()
+	{
+		var typeValue = $("#type").val();
+		var titleValue = $("#title").val();
+		var dianpuValue = $("#dianpu").val();
+		var oriPriceValue = $("#oriPrice").val();
+		var nowPriceValue = $("#nowPrice").val();
+		var storeValue = $("#store").val();
+		var img01Value = $("#images01").val();
+		var img02Value = $("#images02").val();
+		var img03Value = $("#images03").val();
+		var img04Value = $("#images04").val();
+		var img05Value = $("#images05").val();
+
+		if (!typeValue || !titleValue || !dianpuValue || !oriPriceValue || !nowPriceValue || !storeValue)
+		{
+			alert("除了图片，其他请填写完整！");
+		}
+		else
+		{
+			$.get("insertData.php", {type: typeValue, title: titleValue, dianpu: dianpuValue, oriPrice: oriPriceValue, nowPrice: nowPriceValue, store: storeValue, img01: img01Value, img02: img02Value, img03: img03Value, img04: img04Value, img05: img05Value}, function(data)
+				{
+					alert(data);
+				});
+		}
+	});
+</script>
+</html>

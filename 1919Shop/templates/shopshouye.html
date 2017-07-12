@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>店铺首页</title>
+	<link rel="stylesheet" href="css/Reset.css">
+	<link rel="stylesheet" href="css/shopshouye.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery_lazyload.js"></script>
+</head>
+<body>
+    {include file = "header_top.html"}
+    {include file = "header_bottom.html"}
+	<div class="dianpu_smban"></div> 
+	<div class="dianpu_nav">
+		<div class="dianpu_navs">
+			<ul class="dianpu_navs_link fl">
+				<li><a href="###">店铺首页</a></li>
+				<li><a href="###">全部商品</a></li>
+			</ul>
+			<form action="" class="fr">
+				<input placeholder="搜索店内商品" class="dianpu_navs_txt" type="text">
+				<input type="submit" class="dianpu_navs_sub" value="搜索">
+			</form>
+		</div>
+	</div>
+	<div class="dianpu_ban">
+		<a href="###"><img src="images/bann.jpg" height="500" width="1920" alt=""></a>
+	</div>
+
+	<div class="m_shangpin clearfix">
+		<div class="m_shangpin_like fl">
+			<p class="guess_like">猜你喜欢</p>
+			<ul id="list">
+			</ul>
+		</div>
+
+		<div class="dianpu_shangpin fl">
+			<ul class="dianpu_shangpin_nav">
+				<li>综合排序</li>
+				<li>价格</li>
+			</ul>
+
+		
+
+			{foreach from = $goods item key}
+			{if $item["type"] == "啤酒" && $key < 52 && $item["Id"] == $goodsimg[$key]["goodsId"]}
+				<div class="dianpu_shangpin_news">
+					<a href="goodsDetails.php?goodsId={$goodsimg[$key]["goodsId"]}">
+						<img src="{$goodsimg[$key]["img01"]}"  alt="">
+						<p class="dianpu_shangpin_pri"><span class="list_now_pri"><span class="rmb">￥</span><i>{$item["nowPrice"]}</i></span><span class="list_yuan_pri"><span class="rmb">￥</span><i>${$item["oriPrice"]}</i></span></p>
+						<a href="goodsDetails.php?goodsId={$goodsimg[$key]["goodsId"]}">{$item["title"]}</a>
+					</a>
+				</div>
+			{/if}
+			{if $item["type"] == "白酒" && $key < 1 && $item["Id"] == $goodsimg[$key]["goodsId"]}
+				<div class="dianpu_shangpin_news">
+					<a href="goodsDetails.php?goodsId=$goodsimg[$key]["goodsId"]">
+						<img src="{$goodsimg[$key]["img01"]}"  alt="">
+						<p class="dianpu_shangpin_pri"><span class="list_now_pri"><span class="rmb">￥</span><i>{$item["nowPrice"]}</i></span><span class="list_yuan_pri"><span class="rmb">￥</span><i>${$item["oriPrice"]}</i></span></p>
+						<a href="goodsDetails.php?goodsId={$goodsimg[$key]["goodsId"]}">{$item["title"]}</a>
+					</a>
+				</div>
+			{/if}
+			{/foreach}
+		</div>
+		<div class="shangpin_fenye fr">
+			<button  class="up fl">上一页</button>
+			<div class="fenye_view fl">
+				<ul class="fenye_list fl">
+					 
+				</ul>
+			</div>
+			<button class="down fl">下一页</button>
+		</div>
+	</div>
+	{include file = "footer.html"}
+</body>
+<script src="js/shopshouye.js"></script>
+<script>
+	
+	
+
+</script>
+</html>

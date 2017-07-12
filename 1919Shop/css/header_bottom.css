@@ -1,0 +1,414 @@
+/* logo开始 */
+.logo{
+	position: relative;
+	z-index: 50;
+}
+.logo_l{
+	width: 456px;
+	padding: 20px 0;
+	overflow: hidden;
+}
+.logo_l div{
+	width: 228px;
+	height: 75px;
+	float: left;
+}
+.logo_l .logo_img{
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 39px;
+	margin-right: 39px;
+}
+.logo_r{
+	position: relative;
+	width: 700px;
+	height: 130px;
+	z-index: 0;
+}
+.S_search1{
+	float: left;
+	font-size: 14px;
+	width: 72px;
+	height: 34px;
+	background-color: #f5f5f5;
+	line-height: 34px;
+	padding-left: 8px;
+	cursor: pointer;
+
+}
+.S_search2{
+	width: 76px;
+	height: 34px;
+	font-size: 14px;
+	position: absolute;
+	top: 37px;
+	left: -2px;
+	/* display: none; */
+}
+.S_search2 p{
+	
+	padding-left: 8px;
+	background-color: #f5f5f5;
+	line-height: 34px;
+}
+.S_search2 p:hover{
+	background-color: purple;
+	color: #fff;
+}
+
+.logo_r .S_search{
+	width: 529px;
+	/* overflow: hidden; */
+}
+.logo_r .buycar{
+	width: 130px;
+}
+.logo_r .sear{
+	width: 528px;
+	height: 36px;
+	margin-top: 20px;
+	border:2px solid #c00;
+	position: relative;
+	z-index: 50;
+}
+.S_search{
+	position: relative;
+	width: 549px;
+	height: 34px;
+	border: 2px solid #cc0000;
+	margin-top: 14px;
+}
+.S_search .S_search1{
+	float: left;
+	font-size: 14px;
+	width: 80px;
+	height: 34px;
+	border-right: 2px solid #cc0000;
+	background-color: #f5f5f5;
+	line-height: 34px;
+	padding-left: 8px;
+	cursor: pointer;
+
+}
+.S_search .S_search2{
+	width: 88px;
+	height: 68px;
+	font-size: 14px;
+	position: absolute;
+	top: 34px;
+	left: -2px;
+	border: 2px solid #cc0000;
+	border-top: none;
+	z-index: 100;
+	display: none;
+}
+.S_search .S_search2 p{
+	width: 80px;
+	height: 34px;
+	padding-left: 8px;
+	background-color: #f5f5f5;
+	line-height: 34px;
+}
+.S_search0{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.S_search .S_search2 p:hover{
+	background-color: purple;
+	color: #fff;
+}
+.S_right{
+	width: 528px;
+}
+.S_search_icon{
+	float: left;
+	top: 10px;
+	left: 52px;
+	width: 15px;
+	height: 15px;
+	background-image: url(../images/downdrt.png);
+	position: absolute;
+}
+.S_search .txt{
+	border: 0 none;
+	outline: 0 none;
+	width: 347px;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 10px;
+	position: relative;
+	z-index: 5;
+}
+.S_search .but{
+	cursor: pointer;
+	width: 82px;
+	height: 34px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	background: #CC0000;
+	border: 0 none;
+
+}
+/* 搜索框前面的选项美酒和店铺 */
+.logo_r .choice{
+	width: 90px;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.choice_list{
+	position: absolute;
+	top: 36px;
+	left: -2px;
+	width: 88px;
+	border:2px solid #c00;
+	/* display: none; */
+}
+.choice_list a{
+	display: block;
+	padding-left: 10px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #666;
+}
+.choice_list a:hover{
+	color: #c00;
+}
+.choice_list .choice_meijiu{
+	color: #c00;
+}
+.logo_r .l_choice_meijiu{
+	width: 78px;
+	padding-left: 10px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	border-right:2px solid #c00;
+	background: url(../images/img_downdrt.png) no-repeat 60px 10px;
+}
+.S_search input{
+	border: 0 none;
+}
+.logo_r .text{
+	width: 368px;
+	height: 36px;
+	line-height: 36px;
+	
+	outline: 0;
+}
+.logo_r .submit{
+	width: 90px;
+	height: 36px;
+	color: white;
+	font-size: 16px;
+	line-height: 36px;
+	text-align: center;
+	background: #c00;
+}
+.sear_hot{
+
+	margin-top: 20px;
+	overflow: hidden;
+}
+.sear_hot li{
+	margin-right: 20px;
+}
+.sear_hot a{
+	color: #999;
+}
+.sear_hot_red{
+	color: red;
+}
+.sear_hot .sear_hot_red a{
+	color: red;
+}
+.buycar{
+	position: relative;
+	margin-top: 12px;
+	border:1px solid #eaeaea;
+	background: #fafafa;
+	z-index: 80;
+}
+.buycar span{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.buycar_car{
+	padding-left: 16px;
+	width: 16px;
+	height: 38px;
+	background: url(../images/buycar.png) no-repeat 10px 6px ;
+	vertical-align: middle;
+	margin-right: 2px;
+}
+.buycar_num{
+	position: absolute;
+	top: -10px;
+	right: 20px;
+	width: 26px;
+	height: 50px;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+	background: url(../images/buycar.png) no-repeat -24px 1px;
+}
+.buycar_arrow{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 20px;
+	height: 38px;
+	background: url(../images/buycar.png) no-repeat -48px 9px;
+}
+.buycar:hover .buycar_arrow{
+	background: url(../images/buycar.png) no-repeat -78px 9px;
+}
+/* 购物车hover时的模块 */
+.buycar_list{
+	position: absolute;
+	z-index: 2222;
+	top: 37px;
+	width: 320px;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	display: none;
+	right: -1px;
+}
+.nu{
+	top: 37px;
+	width: 320px;
+	height: 70px;
+	border: 1px solid #e5e5e5;
+	background-color: #fff;
+	z-index: 50;
+}
+.nu p{
+	text-align: center;
+	line-height: 70px;
+}
+.carGoods{
+	max-height: 380px;
+	overflow-y: scroll;
+	position: relative;
+	z-index: 999;
+}
+.buycar_list .buycar_list_pic{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.buycar_list span img{
+	margin-top: 10px;
+	width: 50px;
+}
+.carPull{
+	width: 321px;
+	position: absolute;
+	overflow: hidden;
+	z-index: 60;
+	background-color: #fff;
+	/* left: 0; */
+	/* top: 0; */
+}
+
+.carGoods ul li {
+	border-bottom: 1px solid #E1E1E1;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 10px;
+	list-style: none;
+}
+.carGoods ul li:hover {
+	border-bottom: 1px solid #E1E1E1;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	cursor: pointer;
+	padding: 10px;
+	list-style: none;
+}
+
+.goodsImg{
+	width: 50px;
+	height: 50px;
+	margin-top: 7px;
+	border: 1px solid #999;
+	background-color:transparent;
+	float: left;
+}
+
+.goodsDels{
+	margin-left: 10px;
+	width: 140px;
+	float: left;
+	height: 60px;
+}
+.goodsDels a{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+.goodsDels h3{
+	font-size: 12px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.goodsDel{
+	float: right;
+	margin-top: 10px;
+}
+.goodsDel p{
+	line-height: 20px;
+	color: #c00;
+	font-size: 14px;
+	text-align: right;
+}
+.goodsDel span{
+	float: right;
+	color: #666;
+	font-size: 13px;
+}
+.shopCar{
+	display: inline-block;
+	width: 100px;
+	background: #c00;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	float: right;
+	line-height: 42px;
+}
+.carPrice{
+	height: 42px;
+	border: 1px solid #f5f5f5;
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.font{
+	font-size: 12px;
+	padding-left: 10px;
+	line-height: 42px;
+}
+.font span{
+	color: #c00;
+}
+.font b{
+	color: #c00;
+	font-size: 14px;
+}
+.font b:before{
+	content: "￥";
+	color: #c00;
+	font-size: 12px;
+}
