@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-20 08:46:48
+/* Smarty version 3.1.30, created on 2017-07-13 17:55:22
   from "D:\WWW\1919\1919Shop\templates\shopshouye.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59487078a2acc0_94165701',
+  'unifunc' => 'content_5967438abf9768_44190827',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'deb7c06f8ff4ee332130068e08bf2ce96eca340e' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\shopshouye.html',
-      1 => 1497919606,
+      1 => 1499939683,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_59487078a2acc0_94165701 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5967438abf9768_44190827 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -133,13 +133,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 </body>
 <?php echo '<script'; ?>
  src="js/shopshouye.js"><?php echo '</script'; ?>
->
-<?php echo '<script'; ?>
->
-	
-	
-
-<?php echo '</script'; ?>
 >
 </html><?php }
 }
