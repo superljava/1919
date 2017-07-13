@@ -1,0 +1,14 @@
+body{
+	overflow-x: hidden; 
+}
+.next_store{
+	position: relative;
+}
+.next_store img{
+	width: 1920px;
+	height: 2774px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+}

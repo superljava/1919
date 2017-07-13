@@ -1,0 +1,219 @@
+.register{
+	width: 100%;
+	/* height: 500px; */
+	position: relative;	
+	color:#333;
+}
+.regis_top{
+	height: 115px;
+	width: 1200px;
+	margin:0 auto;
+}
+.regis_top .logo{
+	padding-top: 20px;
+	float:left;
+}
+.regis_top .welcome{
+	margin-top: 50px;
+	float:right;
+	margin-right: 174px;
+
+}
+.regis_top .welcome a{
+	display: inline-block;
+	*display: inline-block;
+	*zoom:1;
+	text-decoration: none;
+	font-size: 16px;
+	color:#333;
+}
+.regis_top .welcome a:hover{
+	color:#c20608;
+}
+.regis_pic{
+	height: 500px;
+	background: url(../images/register/s_register.jpg);
+	position: relative;
+}
+
+.regis_box{
+	width: 422px;
+	height: 444px;
+	background: #ecf3f4;
+	border-radius: 10px;
+	position: absolute;
+	top:25px;
+	right: 10%;
+}
+.myform_tit{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom:24px; 
+}
+.myform_tit a{
+	color:#333;
+	font-size: 16px;
+	text-decoration: none;
+}
+.regis_box input{
+	width: 316px;
+	height: 34px;
+	position: absolute;	
+	border:0 none;	
+	font-family: "微软雅黑";
+	right:0;
+	outline: none;
+	border-radius: 3px;
+}
+.regis_tel,.regis_pwd,.regis_confirm,.regis_btn{
+	background: #fff;
+	width: 358px;
+	height: 34px;
+	border:1px solid #d7ddde;
+	margin:0 auto;
+	position: relative;
+	margin-bottom: 10px;
+}
+.regis_tel>span{
+	position: absolute;
+	top:10px;
+	left:8px;
+}
+/* .r_error{
+	display: none;
+} */
+.r_error{
+	font-size: 14px;
+	color:#fff;
+	position: fixed;
+	top:40%;
+	right:46%;
+	height: 50px;
+	background-color: rgba(12,13,13,0.8);
+	line-height: 50px;
+	text-align: center;
+	display:none;
+	padding:0 20px;
+}
+.r_error2{
+	font-size: 14px;
+	color:#fff;
+	position: fixed;
+	top:40%;
+	right:46%;
+	height: 50px;
+	background-color: rgba(12,13,13,0.8);
+	line-height: 50px;
+	text-align: center;
+	display:none;
+	padding:0 20px;
+}
+.p_reminder{
+	/* position: absolute; */
+	border:1px solid red;
+}
+.regis_pwd>span{
+	width: 16px;
+	height: 16px;
+	background: url(../images/register/s-loadingPassword.png);
+	background-position: 0 0;
+	position: absolute;
+	top:10px;
+	left:8px;
+}
+.regis_confirm>span{
+	width: 16px;
+	height: 16px;
+	background: url(../images/register/s-loadingPassword.png);
+	background-position: -22px 0;
+	position: absolute;
+	top:10px;
+	left:8px;
+}
+.regis_code,.regis_message{
+	width: 358px;
+	height: 38px;
+	position: relative;
+	margin:0 auto;
+	position: relative;
+	margin-bottom: 10px;
+}
+.regis_code input,.regis_message>input{
+	width: 230px;
+	height: 36px;
+	padding-left: 8px;
+	border:1px solid #f5f5f5;	
+	position: absolute;
+	left:0px;
+	border:1px solid #e7ecee;
+	border-radius: 3px;
+}
+.regis_code span{
+	border:1px solid #d9dee0;
+	height: 36px;
+	position: absolute;
+	right:0;
+}
+.regis_message span{
+	width: 108px;
+	height: 36px;
+	position: absolute;
+	right:0;
+	border:1px solid #cc0000;
+	border-radius: 3px;
+}
+.regis_message span>button{
+	width: 108px;
+	height: 36px;
+	text-align: center;
+	cursor: pointer;
+	border:0 none;
+	background: #fff;
+	font-family: "微软雅黑"
+
+	/* padding-left: 3px; */
+}
+.regis_btn{
+	margin-bottom: 10px;
+}
+.regis_btn>input{
+	position: absolute;
+	left:0;
+	width: 358px;
+	height: 38px;
+	background-color: #c20608;
+	color:#fff;
+}
+.agree span{
+	position: absolute;
+	height: 18px;
+	line-height: 18px;
+	margin-left: 5px;
+}
+.agree i{
+	display: inline-block;
+	margin-left: 32px;
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+	border:1px solid #e8ecef;
+	background-color: #f2f6f9;
+}
+.agree a{
+	text-decoration: none;
+	color:#333;
+}
+.i_active{
+	background-image: url(../images/register/s-rightLogo.png);
+}
+.regis_footer{
+	position: absolute;
+	top:410px;
+	left:290px;
+}
+.regis_footer a{
+	text-decoration: none;
+	color: #c20608;
+}
+
+

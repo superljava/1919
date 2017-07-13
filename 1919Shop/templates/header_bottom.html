@@ -1,0 +1,85 @@
+<link rel="stylesheet" href="css/header_bottom.css">
+<div class="logo clearfix">
+    <div class="wrapper">
+        <div class="logo_l fl">
+            <div>
+                <a href="index.php"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div>
+                <a href="shopshouye.php"><img class="logo_img" src="images/head-logo-a.gif" alt=""></a>
+            </div>
+        </div>
+        <div class="logo_r fr clearfix">
+            <div class="S_right fl">
+                <div class="S_search clearfix">
+                    <div class="S_search_container fl">
+                        <div class="S_search1"></div>
+                        <div class="S_search2">
+                            <p value="">美酒</p>
+                            <p value="">店铺</p>
+                        </div>
+                        <span class="S_search_icon"></span>
+                    </div>
+                    <input type="text" class="txt fl">
+                    <input type="submit" value="搜索" class="but fr">
+                </div>
+                <ul class="sear_hot">
+                    <li class="fl sear_hot_red">热门搜索：</li>
+                    <li class="fl sear_hot_red"><a href="goodsList.php">泸州老窖</a></li>
+                    <li class="fl"><a href="goodsList.php">五粮液</a></li>
+                    <li class="fl sear_hot_red"><a href="goodsList.php">奔富</a></li>
+                    <li class="fl"><a href="goodsList.php">剑南春</a></li>
+                    <li class="fl sear_hot_red"><a href="goodsList.php">冰爽啤酒</a></li>
+                    <li class="fl"><a href="goodsList.php">拉菲</a></li>
+                </ul>   
+            </div>
+            <div class="buycar fr clearfix">
+                <span class="buycar_car"></span>
+                <a href="shoppingCart.php">购物车</a>
+                <span class="buycar_num">{$allPiece}</span>
+                <span class="buycar_arrow"></span>
+                <div class="buycar_list">
+                    <div class="nu" style="{$empetDisplay}">
+                        <span class="buycar_list_pic"><img src="images/shopcart.png" height="50" width="50" alt=""></span>
+                        <p>购物车中还没有商品，赶紧选购吧!</p>
+                    </div>
+                    <div class="carPull" style="{$listDisplay}">
+                        <div class="carGoods" id="carGoods">
+                            <ul id="carGoods-list">
+                            	{if $goodsBasket}
+                                {foreach from = $goodsBasket item key}
+                                <li goods-id="{$item["goodsId"]}">
+                                    <div class="goodsImg">
+                                        <a href="goodsDetails.php?goodsId={$item["goodsId"]}">
+                                            <img src="{$item["goodsImg"]}" alt="{$item["title"]}" width="50px">
+                                        </a>
+                                    </div>
+                                    <div class="goodsDels">
+                                        <a href="goodsDetails.php?goodsId={$item["goodsId"]}">
+                                            <h3>{$item["title"]}</h3>
+                                        </a>
+                                        <p>{$item["number"]}件</p>
+                                    </div>
+                                    <div class="goodsDel">
+                                        <p>￥{$item["price"]}</p>
+                                        <span class="buycar-delBtn" goods-id="{$item["goodsId"]}">刪除</span>
+                                    </div>
+                                </li>
+                                {/foreach}
+                                {/if}
+                            </ul>
+                        </div>
+                        <div class="carPrice">
+                            <div class="font fl">
+                                共&nbsp;<span>{$allPiece}</span>&nbsp;件商品
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;共计&nbsp;<b>{if $goodsBasket}{$allPrice}{/if}</b>
+                            </div>
+                            <a href="shoppingCart.php" class="shopCar">去购物车</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/header_bottom.js"></script>

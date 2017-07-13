@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>忘记密码</title>
+	<link rel="stylesheet" href="css/Reset.css">
+	<link rel="stylesheet" href="css/Senha.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/messages_zh.min.js"></script>
+</head>
+<body>
+    {include file = "header_top.html"}
+    {include file = "header_bottom.html"}
+<!-- 内容 -->
+	<div class="sen_con">
+		<div class="sen_wp">
+			<div class="sen_sen">找回密码</div>
+			<div class="sen_yz">
+				<div class="sen_14">
+					<img src="images/sen_1234.png" height="70" width="770" alt="">
+				</div>
+				<div class="sen_for">
+					<form action="###" class="fm" id="fm">
+						<div class="fm_name">
+							<lable for="usernamr" class="lable">账户名 :</lable>
+							<input type="text" placeholder="请输入用户名/已验证手机号" name="username" id="usernamr">
+						</div>
+						<div class="fm_code clearfix">
+							<lable for="code" class="lable">验证码 :</lable>
+							<input type="text" placeholder="请输入验证码" name="code" id="code">
+							<span>
+								<img src="images/sen_yzm1.jpg" height="39" width="104" alt="" class="fm_ig">
+								<img src="images/sen_yzm2.jpg" height="39" width="104" alt="" class="fm_ig">
+								<img src="images/sen_yzm3.jpg" height="39" width="104" alt="" class="fm_ig">
+							</span>
+							<p class="sen_p"></p>
+						</div>
+						<div class="fm_btn">
+							<input type="submit" value="提交" id="btn" >
+						</div>
+						<div class="sen_ts"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+    {include file = "footer.html"}
+</body>
+<script src="js/Senha.js"></script>
+</html>
