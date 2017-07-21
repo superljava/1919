@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-19 20:22:12
+/* Smarty version 3.1.30, created on 2017-07-21 09:57:38
   from "D:\WWW\1919\1919Shop\templates\attract.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5947c1f4ba8112_65842345',
+  'unifunc' => 'content_59715f924f4280_20593398',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9c335b70c24bec3fb583ab925f8e616ec3da3c2b' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\attract.html',
-      1 => 1497487592,
+      1 => 1500602257,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5947c1f4ba8112_65842345 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59715f924f4280_20593398 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
