@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-19 20:00:52
+/* Smarty version 3.1.30, created on 2017-07-21 11:52:37
   from "D:\WWW\1919\1919Shop\templates\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5947bcf49226d0_30743827',
+  'unifunc' => 'content_59717a854c8a70_34621220',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2d5c219ce2920db3b1375acb74bf52e35fb8043b' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\index.html',
-      1 => 1497873649,
+      1 => 1500609153,
       2 => 'file',
     ),
   ),
@@ -24,13 +24,17 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5947bcf49226d0_30743827 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59717a854c8a70_34621220 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>首页</title>
+    <title>1919酒类直供-白酒、红酒、葡萄酒、洋酒、啤酒酒类网上商城 </title>
+    <meta name="keywords" content="1919酒类网上商城,1919酒类连锁,1919官方旗舰店,壹玖壹玖,1919酒类商城,1919招商加盟">
+    <meta name="description" content="1919酒类网上商城，提供白酒、进口葡萄酒、洋酒、红酒、啤酒、黄酒等正品酒类，官方授权品牌销售，全国超过600家酒类连锁超市极速配送，是消费者网上买正品名酒的首选渠道。">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,9,10,edge,chrome=1">
+    <meta name="renderer" content="webkit">
     <link rel="stylesheet" href="css/Reset.css">
     <link rel="stylesheet" href="css/index.css">
     <?php echo '<script'; ?>
