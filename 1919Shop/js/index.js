@@ -8,7 +8,7 @@ $(function($)
 	});
 
 	//banner开始
-	bannerAnimate(
+	new BannerAnimate(
 		$(".banner-container"),
 		{
 			banner : {
@@ -85,7 +85,7 @@ $(function($)
 	//三个小banner
 	for (var i = 0; i < $(".smbanner-container").length; i++)
 	{
-		bannerAnimate(
+		new BannerAnimate(
 		$(".smbanner-container").eq(i),
 		{
 			banner : {
