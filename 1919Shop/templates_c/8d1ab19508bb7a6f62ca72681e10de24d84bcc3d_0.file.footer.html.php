@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-19 19:52:50
+/* Smarty version 3.1.30, created on 2017-07-21 16:12:35
   from "D:\WWW\1919\1919Shop\templates\footer.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5947bb120af275_76053811',
+  'unifunc' => 'content_5971b7733bf470_37033175',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8d1ab19508bb7a6f62ca72681e10de24d84bcc3d' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\footer.html',
-      1 => 1497873166,
+      1 => 1500624413,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5947bb120af275_76053811 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971b7733bf470_37033175 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <!-- footer开始 -->
-<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/footer.min.css">
 <div class="footer">
     <div class="wrap">
         <ul class="f_help">

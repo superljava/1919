@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-13 11:52:33
+/* Smarty version 3.1.30, created on 2017-07-21 16:12:35
   from "D:\WWW\1919\1919Shop\templates\header_bottom.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_593f6181d56f71_15900181',
+  'unifunc' => 'content_5971b77332ad55_47847682',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7b97c7c329c4e34676b90f249b4819742f66b1f1' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\header_bottom.html',
-      1 => 1497325952,
+      1 => 1500624463,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_593f6181d56f71_15900181 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971b77332ad55_47847682 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-<link rel="stylesheet" href="css/header_bottom.css">
+<link rel="stylesheet" href="css/header_bottom.min.css">
 <div class="logo clearfix">
     <div class="wrapper">
         <div class="logo_l fl">
@@ -131,6 +131,6 @@ echo $_smarty_tpl->tpl_vars['allPrice']->value;
     </div>
 </div>
 <?php echo '<script'; ?>
- src="js/header_bottom.js"><?php echo '</script'; ?>
+ src="js/header_bottom.min.js"><?php echo '</script'; ?>
 ><?php }
 }

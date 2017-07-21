@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-13 15:23:31
+/* Smarty version 3.1.30, created on 2017-07-21 16:34:49
   from "D:\WWW\1919\1919Shop\templates\guide.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_593f92f33a3606_68505886',
+  'unifunc' => 'content_5971bca90416c8_64959067',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ba10d14c8fd91cbcd6240f1cb2cb10e4f79cbd3c' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\guide.html',
-      1 => 1497337798,
+      1 => 1500626063,
       2 => 'file',
     ),
   ),
@@ -24,15 +24,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_593f92f33a3606_68505886 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971bca90416c8_64959067 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>新手指南</title>
-	<link rel="stylesheet" href="css/Reset.css">
-	<link rel="stylesheet" href="css/guide.css">
+	<link rel="stylesheet" href="css/Reset.min.css">
+	<link rel="stylesheet" href="css/guide.min.css">
 	<?php echo '<script'; ?>
  src="js/jquery-1.8.3.min.js"><?php echo '</script'; ?>
 >
@@ -218,7 +218,7 @@ function content_593f92f33a3606_68505886 (Smarty_Internal_Template $_smarty_tpl)
 ?>
 
 <?php echo '<script'; ?>
- src="js/guide.js"><?php echo '</script'; ?>
+ src="js/guide.min.js"><?php echo '</script'; ?>
 >
 </body>
 </html><?php }

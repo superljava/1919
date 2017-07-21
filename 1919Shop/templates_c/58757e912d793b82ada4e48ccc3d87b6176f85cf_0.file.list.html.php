@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-15 08:45:43
+/* Smarty version 3.1.30, created on 2017-07-21 16:12:35
   from "D:\WWW\1919\1919Shop\templates\list.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5941d8b78385d4_40302618',
+  'unifunc' => 'content_5971b773384ae3_49004129',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '58757e912d793b82ada4e48ccc3d87b6176f85cf' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\list.html',
-      1 => 1497487539,
+      1 => 1500624567,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5941d8b78385d4_40302618 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971b773384ae3_49004129 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-<link rel="stylesheet" href="css/list.css">
+<link rel="stylesheet" href="css/list.min.css">
 <!-- 列表 -->
 <div id="shop">
     <div class="shoptitle wrapper clearfix">
@@ -343,6 +343,6 @@ function content_5941d8b78385d4_40302618 (Smarty_Internal_Template $_smarty_tpl)
     </div>
 </div>
 <?php echo '<script'; ?>
- src="js/shoplist.js"><?php echo '</script'; ?>
+ src="js/shoplist.min.js"><?php echo '</script'; ?>
 ><?php }
 }

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-19 20:28:28
+/* Smarty version 3.1.30, created on 2017-07-21 16:18:30
   from "D:\WWW\1919\1919Shop\templates\goodsDetails.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5947c36c7aba32_24998136',
+  'unifunc' => 'content_5971b8d6bbf767_70018790',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c952340712d4ab8a3d0705ce1138fb62f531d611' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\goodsDetails.html',
-      1 => 1497875300,
+      1 => 1500624436,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5947c36c7aba32_24998136 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971b8d6bbf767_70018790 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,19 +32,16 @@ function content_5947c36c7aba32_24998136 (Smarty_Internal_Template $_smarty_tpl)
         <meta charset="utf-8">
         <title><?php echo $_smarty_tpl->tpl_vars['goods']->value["title"];?>
 </title>
-        <link rel="stylesheet" href="css/Reset.css">
-        <link rel="stylesheet" href="css/goodsDetails.css">
+        <link rel="stylesheet" href="css/Reset.min.css">
+        <link rel="stylesheet" href="css/goodsDetails.min.css">
         <?php echo '<script'; ?>
  src="js/jquery-1.8.3.min.js"><?php echo '</script'; ?>
 >
         <?php echo '<script'; ?>
- src="js/jquery_lazyload.js"><?php echo '</script'; ?>
+ src="js/jquery_lazyload.min.js"><?php echo '</script'; ?>
 >
         <?php echo '<script'; ?>
- src="js/BannerAnimate.js"><?php echo '</script'; ?>
->
-        <?php echo '<script'; ?>
- src="js/goodsDetails.js"><?php echo '</script'; ?>
+ src="js/goodsDetails.min.js"><?php echo '</script'; ?>
 >
     </head>
     <body>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-21 11:52:37
+/* Smarty version 3.1.30, created on 2017-07-21 16:12:35
   from "D:\WWW\1919\1919Shop\templates\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59717a854c8a70_34621220',
+  'unifunc' => 'content_5971b773267822_88177342',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2d5c219ce2920db3b1375acb74bf52e35fb8043b' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\index.html',
-      1 => 1500609153,
+      1 => 1500624546,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_59717a854c8a70_34621220 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971b773267822_88177342 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,19 +35,19 @@ function content_59717a854c8a70_34621220 (Smarty_Internal_Template $_smarty_tpl)
     <meta name="description" content="1919酒类网上商城，提供白酒、进口葡萄酒、洋酒、红酒、啤酒、黄酒等正品酒类，官方授权品牌销售，全国超过600家酒类连锁超市极速配送，是消费者网上买正品名酒的首选渠道。">
     <meta http-equiv="X-UA-Compatible" content="IE=7,9,10,edge,chrome=1">
     <meta name="renderer" content="webkit">
-    <link rel="stylesheet" href="css/Reset.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/Reset.min.css">
+    <link rel="stylesheet" href="css/index.min.css">
     <?php echo '<script'; ?>
  src="js/jquery-1.8.3.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="js/jquery_lazyload.js"><?php echo '</script'; ?>
+ src="js/jquery_lazyload.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="js/BannerAnimate.js"><?php echo '</script'; ?>
+ src="js/BannerAnimate.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="js/index.js"><?php echo '</script'; ?>
+ src="js/index.min.js"><?php echo '</script'; ?>
 >
 </head>
 <body>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-13 17:55:22
+/* Smarty version 3.1.30, created on 2017-07-21 16:18:56
   from "D:\WWW\1919\1919Shop\templates\shopshouye.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5967438abf9768_44190827',
+  'unifunc' => 'content_5971b8f08a08a8_72743492',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'deb7c06f8ff4ee332130068e08bf2ce96eca340e' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\shopshouye.html',
-      1 => 1499939683,
+      1 => 1500625133,
       2 => 'file',
     ),
   ),
@@ -23,20 +23,20 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5967438abf9768_44190827 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971b8f08a08a8_72743492 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>店铺首页</title>
-	<link rel="stylesheet" href="css/Reset.css">
-	<link rel="stylesheet" href="css/shopshouye.css">
+	<link rel="stylesheet" href="css/Reset.min.css">
+	<link rel="stylesheet" href="css/shopshouye.min.css">
 	<?php echo '<script'; ?>
  src="js/jquery-1.8.3.min.js"><?php echo '</script'; ?>
 >
 	<?php echo '<script'; ?>
- src="js/jquery_lazyload.js"><?php echo '</script'; ?>
+ src="js/jquery_lazyload.min.js"><?php echo '</script'; ?>
 >
 </head>
 <body>
@@ -132,7 +132,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 
 </body>
 <?php echo '<script'; ?>
- src="js/shopshouye.js"><?php echo '</script'; ?>
+ src="js/shopshouye.min.js"><?php echo '</script'; ?>
 >
 </html><?php }
 }

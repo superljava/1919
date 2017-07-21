@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-14 10:12:37
+/* Smarty version 3.1.30, created on 2017-07-21 16:39:01
   from "D:\WWW\1919\1919Shop\templates\friend_link.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59409b955a99d3_66182467',
+  'unifunc' => 'content_5971bda50a4b35_74033945',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '058a3fcf48ee29203385ac91e489c79363b3510c' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\friend_link.html',
-      1 => 1497337614,
+      1 => 1500624431,
       2 => 'file',
     ),
   ),
@@ -24,21 +24,21 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_59409b955a99d3_66182467 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5971bda50a4b35_74033945 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>friend_link</title>
-	<link rel="stylesheet" href="css/Reset.css">
-	<link rel="stylesheet" href="css/friend_link.css">
+	<link rel="stylesheet" href="css/Reset.min.css">
+	<link rel="stylesheet" href="css/friend_link.min.css">
 	<link rel="icon" href="images/buy_arrow/j.png">
 	<?php echo '<script'; ?>
  src="js/jquery-1.8.3.min.js"><?php echo '</script'; ?>
 >
 	<?php echo '<script'; ?>
- src="js/firend_link.js"><?php echo '</script'; ?>
+ src="js/firend_link.min.js"><?php echo '</script'; ?>
 >
 </head>
 <body>
