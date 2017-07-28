@@ -1,0 +1,175 @@
+.wrapper{
+	width: 1200px;
+	margin:auto;
+}
+/* 顶部top开始 */
+.top{
+	width: 100%;
+	background: #efefef;
+	position: relative;
+	z-index: 100;
+}
+.top li{
+	float: left;
+	color:#666;
+	margin-left: 2px;
+}
+#top_nav{
+	position: relative;
+	z-index: 100;
+}
+.t_left li{
+	margin-left: 6px;
+	padding: 6px 0;
+}
+.t_left a{
+	color:#666;
+}
+.t_left span{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 16px;
+	height: 14px;
+	background: url(../images/header_map.png) no-repeat 0px 1px;
+}
+.t_left .t_spec{
+	color:#999;
+}
+.t_right li{
+	text-align: center;
+	padding: 6px 12px;	
+	position: relative;
+}
+.t_right li:hover{
+	background: #fafafa;
+}
+.t_right .t_r_c{
+	color: #aaa;
+	padding: 6px 0;
+}
+.t_right .pic{
+	
+	padding-right: 18px;
+	background: url(../images/img_downdrt.png) no-repeat right center;
+}
+.t_right a{
+	color: #999;
+}
+.t_login:hover{
+	color:#e30b20;
+}
+.t_r_sm{
+	width: 86px;
+}
+.top_nav_list span{
+	width: 1px;
+	height: 16px;
+	border-right: 1px solid #aaa;
+	position: absolute;
+	right: -1px;
+	top: 8px;
+}
+.top_nav_list .t_r_sm{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	padding: 2px;
+	border-top:none;
+	text-align: center;
+	background-color: #fafafa;
+	z-index: 10;
+	display: none;
+	box-shadow: 1px 3px 2px #ccc, -1px 0 2px #ccc;
+}
+.t_right .t_r_sm li{
+	background: white;
+	padding-right: 0;
+}
+.t_right .t_r_sm a{
+	white-space: nowrap;
+}
+.t_right .t_r_sm li:hover a{
+	color:#e30b20;
+}
+.t_right .t_r_sm img{
+	display: block;
+	margin: 0 auto;
+}
+
+.t_left .switchCity{
+	color: #c81623;
+	cursor: pointer;
+}
+.cityWindow_container{
+	width: 760px;
+	padding: 40px 20px 20px 20px;
+	background-image: url(../images/white_bg.png);
+    background-repeat: repeat;
+	border: 1px solid gray;
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -400px;
+	z-index: 1000;
+    display: none;
+}
+.province,.city,.district{
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid red;
+	overflow: hidden;
+}
+.cityWindow_container li{
+	margin: 5px;
+	float: left;
+	text-align: center;
+}
+.cityWindow_container a{
+	color: #444;
+	font-size: 14px;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+.cityWindow_container .aColor{
+	color: orange;
+}
+.cityWindow_container .crtChecked{
+    color: orange;
+    text-decoration: none !important;
+}
+.closeBtn{
+    width: 40px;
+    height: 20px;
+    background-color: #C75050;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.closeBtn:hover,.sureBtn:hover,.cancelBtn:hover{
+    background-color: #E04343;
+}
+.sureBtn_container{
+    width: 100px;
+    height: 20px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.sureBtn,.cancelBtn{
+    width: 40px;
+    height: 20px;
+    background-color: #666;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

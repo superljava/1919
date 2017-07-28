@@ -5,8 +5,8 @@
             <ul>
                 <li><span></span></li>
                 <li class="t_spec">送至：</li>
-                <li><a href="###">郑州市&nbsp;&nbsp;</a></li>
-                <li>欢迎光临1919酒类直供！</li>
+                <li><a class="switchCity">郑州市</a></li>
+                <li>&nbsp;&nbsp;欢迎光临1919酒类直供！</li>
                 <li style="{$empty}"><a href="login.php" class="t_login">亲，请登录</a></li>
                 <li style="{$empty}"><a href="register.php" class="t_login">注册</a></li>
                 <li style="{$emptyLogin}"><a href="###" class="t_login">{if $sess}{$sess}{/if}</a></li>
@@ -53,4 +53,15 @@
         </div>
     </div>
 </div>
+<div class="cityWindow_container" id="cityWindow_container">
+    <div class="closeBtn">×</div>
+    <div class="sureBtn_container">
+        <div class="sureBtn fl">确定</div>
+        <div class="cancelBtn fr">取消</div>
+    </div>
+    <ul class="province"></ul>
+    <ul class="city"></ul>
+    <ul class="district"></ul>
+</div>
+<script src="js/area.min.js"></script>
 <script src="js/header_top.min.js"></script>

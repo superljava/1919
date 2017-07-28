@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-21 16:12:35
+/* Smarty version 3.1.30, created on 2017-07-28 23:58:29
   from "D:\WWW\1919\1919Shop\templates\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5971b773267822_88177342',
+  'unifunc' => 'content_597b5f25435192_69646969',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2d5c219ce2920db3b1375acb74bf52e35fb8043b' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\index.html',
-      1 => 1500624546,
+      1 => 1501257506,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_5971b773267822_88177342 (Smarty_Internal_Template $_smarty_tpl) {
+function content_597b5f25435192_69646969 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,7 +47,7 @@ function content_5971b773267822_88177342 (Smarty_Internal_Template $_smarty_tpl)
  src="js/BannerAnimate.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="js/index.min.js"><?php echo '</script'; ?>
+ src="source/js/index.js"><?php echo '</script'; ?>
 >
 </head>
 <body>

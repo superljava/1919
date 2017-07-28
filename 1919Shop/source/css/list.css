@@ -1,0 +1,181 @@
+/* 列表开始 */
+.shoptitle{
+	height: 40px;
+	width: 1235px;
+	position: relative;
+}
+#shop{
+	width: 100%;
+	height: 40px;
+	border-bottom:#e60012 2px solid;
+	position: relative;
+	z-index: 10;
+}
+.quanbu{
+	height: 40px;
+	width: 228px;
+	background:#cc0000; 
+	line-height: 40px;
+}
+.quanbu .allFen{
+	height: 40px;
+	margin-left: 17px;
+	font-size: 15px;
+	color: white;
+	line-height: 40px;
+	width: 66px;
+	text-align: center;
+}
+.quanbu .arrow{
+	background: url(../images/img_downdrt_nav.png);
+	width: 18px;
+	height: 10px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+.shoptitle .shoplists{
+	width: 228px;
+	height: 541px;
+	background: url(../images/white-bg.png) repeat;
+	border-top: 2px solid #e60012;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+
+}
+.shoptitle .shoplists li{
+	float: left;
+	list-style: none;
+	width: 100%;
+}
+.shoptitle .shoplists li p{
+	 padding-top: 21px;
+	padding-left: 12px;
+}
+.shoptitle .shoplists li .baijiu{
+	font-size: 16px;
+	color: #666;
+	height: 16px;
+	line-height: 16px;
+	/* padding-top: 17px;
+	padding-left: 12px; */
+	float: left;
+}
+.shoptitle .shoplists li .sec_list{
+	/* float: left; */
+	margin-top: 6px;
+	/* padding-left: 12px; */
+	width: 200px;
+	margin-left: 12px;
+	/* margin-right: 12px; */
+}
+.shoptitle .shoplists li .sec_list span{
+	margin-right: 20px;
+	margin-top: 8px;
+	float: left;
+	
+}
+.shoptitle .shoplists li .sec_list span a{
+	font-size: 12px;
+	height: 12px;
+	line-height:12px; 
+	color: #666;
+	float: left;
+    /* margin-right: 20px;
+	margin-top: 9px; */
+}
+.shoptitle .shoplists li .sec_list span a:hover{
+	color:#e30b20;
+}
+.ul1 li{
+	list-style: none;
+	float: left;
+	padding-left:32px;
+	padding-right: 30px;
+	height: 40px; 
+}
+.ul1 li a{
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	float: left;
+	color: #666;
+}
+.ul1 li a:hover{
+	color:#e30b20;
+}
+.introduce{
+	width: 694px;
+	height: 540px;
+	background: url(../images/white-bg.png) repeat;
+	overflow: hidden;
+	position: absolute;
+	top: 42px;
+	left: 228px;
+}
+.left{
+	width: 111px;
+	float: left;
+}
+.left li{
+	float: left;
+	width: 100%;
+	padding-top: 16px;
+	list-style: none;
+}
+.left li span{
+	float: left;
+	font-size: 13px;
+	color: #666;
+	width: 100%;
+	text-align: center;
+	height: 13px;
+	line-height: 13px;
+}
+.introduce .right{
+	width: 583px;	
+}
+.introduce .right li{
+	width: 100%;
+	float: right;
+	list-style: none;
+	padding-top: 16px;
+	border-bottom: 1px solid #eeeeee;
+}
+.introduce .right li span{
+	float: left;
+	font-size: 11px;
+	height: 11px;
+	line-height: 11px;
+	padding-bottom: 10px;
+	padding-right: 18px;
+
+}
+.introduce .right li span a{
+	float: left;
+	font-size: 11px;
+	height: 11px;
+	line-height: 11px;
+	color: #666;
+}
+.right li span a:hover{
+	color:#e30b20;
+}
+.introduce1{
+	display: none;
+}
+.introduce2{
+	display: none;
+}
+.introduce3{
+	display: none;
+}
+.introduce4{
+	display: none;
+}
+.introduce5{
+	display: none;
+}
+.introduce6{
+	display: none;
+}
