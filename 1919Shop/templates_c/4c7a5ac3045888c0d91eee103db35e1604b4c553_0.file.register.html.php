@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-13 09:33:19
+/* Smarty version 3.1.30, created on 2017-08-01 10:52:28
   from "D:\WWW\1919\1919Shop\templates\register.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_593f40df739397_85523651',
+  'unifunc' => 'content_597fecec90af69_39749709',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4c7a5ac3045888c0d91eee103db35e1604b4c553' => 
     array (
       0 => 'D:\\WWW\\1919\\1919Shop\\templates\\register.html',
-      1 => 1497317484,
+      1 => 1501257315,
       2 => 'file',
     ),
   ),
@@ -21,15 +21,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.html' => 1,
   ),
 ),false)) {
-function content_593f40df739397_85523651 (Smarty_Internal_Template $_smarty_tpl) {
+function content_597fecec90af69_39749709 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/register.css">
-        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/reset.min.css">
+        <link rel="stylesheet" href="css/register.min.css">
+        <link rel="stylesheet" href="css/common.min.css">
         <?php echo '<script'; ?>
  src="js/jquery-1.8.3.min.js"><?php echo '</script'; ?>
 >
